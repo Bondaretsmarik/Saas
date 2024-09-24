@@ -1,0 +1,12 @@
+@import './util/vars';
+@import './components/header';
+
+
+%section {
+    color:aqua
+}
+
+.section-error{
+@extend %section;
+color: black;
+}
