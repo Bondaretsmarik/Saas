@@ -1,0 +1,22 @@
+.logo {
+    display: block;
+    font-size: 26px;
+    font-family: $font-accent;
+    font-weight: 700;
+    letter-spacing: 0.78px;
+    text-decoration: none;
+   
+    &__accent {
+        color: $color-accent;
+    }
+}
+
+.header__logo {
+color: $color-black;
+margin-right: 93px;
+}
+
+.footer__logo {
+color: $color-white;
+margin-bottom: 20px;
+}

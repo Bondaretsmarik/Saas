@@ -1,0 +1,57 @@
+body {
+    font-family: $font-primary, sans-serif;
+    font-size: 14px;
+    color: $color-text-primery;
+
+    background-color: $color-white;
+}
+
+p, h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+}
+
+textarea {
+    resize: none;
+}
+
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+.title {
+    text-align: center;
+
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 1.08px;
+
+    color: $color-text-primery;
+}
+
+.link {
+    text-decoration: none;
+    &:hover,:focus {
+        color: $color-accent;
+    }
+}
+
+.list {
+    list-style: none;
+}
+
+.icon {
+    fill: currentColor;
+}

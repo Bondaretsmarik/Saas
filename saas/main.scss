@@ -1,12 +1,15 @@
+@import './util/visually-hidden';
 @import './util/vars';
+@import './base/global';
+@import './util/logo';
 @import './components/header';
 
 
-%section {
-    color:aqua
-}
+// %section {
+//     color:aqua
+// }
 
-.section-error{
-@extend %section;
-color: black;
-}
+// .section-error{
+// @extend %section;
+// color: black;
+// }
