@@ -225,6 +225,7 @@ textarea {
 }
 
 .benefits__item:before {
+  content: "";
   display: block;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -239,21 +240,17 @@ textarea {
 }
 
 .benefits__item:nth-child(1):before {
-  content: "";
   background-image: url(../images/antenna.svg);
 }
 
 .benefits__item:nth-child(2):before {
-  content: "";
   background-image: url(../images/clock.svg);
 }
 
 .benefits__item:nth-child(3):before {
-  content: "";
   background-image: url(../images/diagram.svg);
 }
 
 .benefits__item:nth-child(4):before {
-  content: "";
   background-image: url(../images/astronaut.svg);
 }/*# sourceMappingURL=main.css.map */

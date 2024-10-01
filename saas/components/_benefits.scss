@@ -24,7 +24,7 @@
 }
 
 .benefits__item:before {
-    // content: '';
+    content: '';
     display: block;
     justify-content: center;
     align-items: center;
@@ -43,7 +43,7 @@ $benefits__icon: 'antenna', 'clock', 'diagram', 'astronaut';
 
         $number: calc($number + 1);
         .benefits__item:nth-child(#{$number}):before {
-            content: '';
+            // content: '';
             background-image: url(../images/#{$iconName}.svg);
         }
     }
