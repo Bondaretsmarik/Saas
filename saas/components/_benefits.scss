@@ -21,6 +21,19 @@
     &__item {
         width: calc((100% - 90px) / 4);
     }
+
+    &__title {
+        margin-top: 30px;
+        font-weight: 700;
+        letter-spacing: 0.42px;
+    }
+
+    &__text {
+        margin-top: 10px;
+        color: $color-text-secondary;
+        line-height: 1.7;
+        letter-spacing: 0.42px;
+    }
 }
 
 .benefits__item:before {
@@ -31,9 +44,11 @@
 
 
     height: 120px;
-    background-size: 70px;
     border-radius: 4px;
     background-color: $color-bg-whitegrey;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
 }
 
 $benefits__icon: 'antenna', 'clock', 'diagram', 'astronaut';
@@ -43,7 +58,7 @@ $benefits__icon: 'antenna', 'clock', 'diagram', 'astronaut';
 
         $number: calc($number + 1);
         .benefits__item:nth-child(#{$number}):before {
-            // content: '';
+            background-size: 70px;
             background-image: url(../images/#{$iconName}.svg);
         }
     }

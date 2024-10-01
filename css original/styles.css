@@ -234,7 +234,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 } */
 /* Benefits */
 
-.benefits {
+/* .benefits {
     margin-bottom: 94px;
 }
 
@@ -258,10 +258,10 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} */
 
 
-.benefits-text-title {
+/* .benefits-text-title {
     margin-top: 30px;
     font-weight: 700;
     letter-spacing: 0.42px;
@@ -271,7 +271,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     color: var(--text-color); 
     line-height: 1.7; 
     letter-spacing: 0.42px;
-}
+} */
 /* Products */
 
 .products {
