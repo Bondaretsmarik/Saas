@@ -1,0 +1,56 @@
+// $benefits__icon: 'antenna', 'clock', 'diagram', 'astronaut';
+
+// @mixin generateIcons ($iconList) {
+//     @each $iconName in $iconList {
+    
+//             .benefits__item-#{$iconName} {
+//                 background-image: url(../images/#{$iconName}.svg);
+//             }
+//         }
+// }
+// @include generateIcons($benefits__icon)
+
+.benefits {
+    margin-bottom: 94px;
+
+    &__list {
+        display: flex;
+        gap: 30px;
+    }    
+
+    &__item {
+        width: calc((100% - 90px) / 4);
+    }
+}
+
+.benefits__item:before {
+    // content: '';
+    display: block;
+    justify-content: center;
+    align-items: center;
+
+
+    height: 120px;
+    background-size: 70px;
+    border-radius: 4px;
+    background-color: $color-bg-whitegrey;
+}
+
+$benefits__icon: 'antenna', 'clock', 'diagram', 'astronaut';
+
+@mixin generateIcons ($iconList, $number) {
+    @each $iconName in $iconList {
+
+        $number: calc($number + 1);
+        .benefits__item:nth-child(#{$number}):before {
+            content: '';
+            background-image: url(../images/#{$iconName}.svg);
+        }
+    }
+}
+
+@include generateIcons($benefits__icon,0) 
+
+// ../images/#{$iconName}.svg
+
+// url(../images/#{$iconName}.svg);

@@ -7,16 +7,26 @@
     text-decoration: none;
    
     &__accent {
-        color: $color-accent;
+    color: $color-accent;
+    }
+
+    &__header {
+    color: $color-black;
+    margin-right: 93px;
+    }
+
+    &__footer {
+    color: $color-white;
+    margin-bottom: 20px;
     }
 }
 
-.header__logo {
-color: $color-black;
-margin-right: 93px;
-}
+// .header__logo {
+// color: $color-black;
+// margin-right: 93px;
+// }
 
-.footer__logo {
-color: $color-white;
-margin-bottom: 20px;
-}
+// .footer__logo {
+// color: $color-white;
+// margin-bottom: 20px;
+// }
