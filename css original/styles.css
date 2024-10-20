@@ -816,7 +816,7 @@ textarea {
 } */
 
 
-.label-contract {
+/* .label-contract {
 display: flex;
 margin: 20px auto 30px auto;
 }
@@ -842,9 +842,9 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     background-size: contain;
     background-origin: border-box;
     border-color: var(--accent-color);
-}
+} */
 
-.checkbox-text {
+/* .checkbox-text {
     line-height: 1.17;
     color: var(--text-color);
     margin-right: 4px;
@@ -878,7 +878,7 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .button-form:active {
     background-color: #188CE8;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-}
+} */
 /* .footer-form {
     margin-left: 93px;
 } */
