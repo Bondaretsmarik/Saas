@@ -296,7 +296,109 @@
         </div>
     </section>
 
+    <!-- Модальне вікно -->
+
+    <div class="backdrop is__hidden" data-modal>
+        <div class="modal">
+            <svg class="button__close" width="18px" height="18px" data-modal-close>
+                <use href="./images/icons.svg#icon-close-black"></use>
+            </svg>
+
+            <form>
+                <h2 class="modal__title">Залиште свої дані, ми вам передзвонимо</h2>
+                <label class="form__field">
+                    <span class="form__label">Ім'я</span>
+                    <input type="text" mame="Name" autocomplete="off" class="modal__input">
+                    <svg width="18" height="18" class="form__icon">
+                        <use href="./images/icons.svg#icon-person"></use>
+                    </svg>
+                </label>
+                <label class="form__field">
+                    <span class="form__label">Телефон</span>
+                    <input type="text" mame="Name" autocomplete="off" class="modal__input">
+                    <svg width="18" height="18" class="form__icon">
+                        <use href="./images/icons.svg#icon-phone"></use>
+                    </svg>
+                </label>
+                <label class="form__field">
+                    <span class="form__label">Пошта</span>
+                    <input type="text" mame="Name" autocomplete="off" class="modal__input">
+                    <svg width="18" height="18" class="form__icon">
+                        <use href="./images/icons.svg#icon-email"></use>
+                    </svg>
+                </label>
+                <label class="form__field">
+                    <span class="form__label">Коментар</span>
+                    <textarea name="" id="" class="modal__input modal__textarea" placeholder="Введіть текст"></textarea>
+                </label>
+
+                <label class="label__contract">
+                    <input type="checkbox" class="checkbox">
+                    <span class="icon__checkbox"></span>
+                    <span class="checkbox__text">Погоджуюсь з розсилкою та приймаю</span>
+                    <a href="" class="link__contract">Умови договору</a>
+                </label>
+
+                <button class="button__form" type="submit">Відправити</button>
+            </form>
+        </div>
+    </div>
+
 </main>
+
+<!-- Модальне вікно
+
+<div class="backdrop is-hidden" data-modal>
+    <div class="modal">
+        <div class="button-close" data-modal-close>
+            <svg width="18px" height="18px" class="icon-close">
+                <use href="./images/icons.svg#icon-close-black"></use>
+            </svg>
+        </div>
+        <form>
+            <h2 class="modal-title">Залиште свої дані, ми вам передзвонимо</h2>
+            <label class="form-field">
+                <span class="form-label">Ім'я</span>
+                <input type="text" name="Name" autocomplete="off" class="modal-input">
+                <svg width="18" height="18" class="form-icon">
+                    <use href="./images/icons.svg#icon-person"></use>
+                </svg>
+
+            </label>
+
+            <label class="form-field">
+                <span class="form-label">Телефон</span>
+                <input type="text" name="Name" autocomplete="off" class="modal-input">
+                <svg width="18" height="18" class="form-icon">
+                    <use href="./images/icons.svg#icon-phone"></use>
+                </svg>
+
+            </label>
+
+            <label class="form-field">
+                <span class="form-label">Пошта</span>
+                <input type="text" name="Name" autocomplete="off" class="modal-input">
+                <svg width="18" height="18" class="form-icon">
+                    <use href="./images/icons.svg#icon-email"></use>
+                </svg>
+
+            </label>
+
+            <label class="form-field">
+                <span class="form-label">Коментар</span>
+                <textarea name="comment" class="modal-input modal-textarea" placeholder="Введіть текст"></textarea>
+
+            </label>
+            <label class="label-contract">
+                <input class="checkbox" type="checkbox" name="">
+                <span class="icon-checkbox"></span>
+                <span class="checkbox-text">Погоджуюсь з розсилкою та приймаю</span>
+                <a class="link-contract" href="">Умови договору</a>
+            </label>
+            <button class="button-form" type="submit">Відправити</button>
+        </form>
+    </div>
+</div> -->
 
     <!-- Footer -->
 
@@ -354,9 +456,9 @@
             <form action="" class="footer__form">
                 <b class="footer__form--title">підпишіться на розсилку</b>
 
-                <div class="footer_send--form">
+                <div class="footer__send--form">
                     <label><input type="email" placeholder="E-mail" class="footer__input" name="E-mail"></label>
-                    <button class="send__button"> Підписатися
+                    <button class="footer__send--button"> Підписатися
                         <svg width="24px" height="24px" class="icon__send">
                             <use href="./images/icons.svg#icon-send"></use>
                         </svg>

@@ -37,6 +37,21 @@
     &__icon {
         fill: $color-white;
     }
+
+    &__form {
+        margin-left: 93px;
+    }
+
+    &__input {
+        width: 358px;
+        height: 50px;
+        background: rgba(33, 150, 243, 0);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        border: 1px rgba(255, 255, 255, 0.30) solid;
+        padding-left: 16px;
+        color: rgba(255, 255, 255, 0.6);
+    }
 }
 
 .footer__link {
@@ -74,4 +89,53 @@
 
 .join__in {
     margin-left: 70px;
+}
+
+.footer__form {
+    &--title {
+        font-weight: 700;
+        color: $color-white;
+        letter-spacing: 0.42px;
+        text-transform: uppercase;
+    }
+}
+
+.footer__send {
+    &--form {
+        display: flex;
+        gap: 12px;
+        margin-top: 20px;
+    }
+
+    &--button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        width: 200px;
+        height: 50px;
+        background: $color-accent;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        border: none;
+
+        color: $color-white;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 1.25;
+        letter-spacing: 0.96px;
+    }
+}
+
+.footer__input {
+    &::placeholder {
+        color: rgba(255, 255, 255, 0.6);
+        font-size: 16px;
+        line-height: 1.25;
+        letter-spacing: 0.48px;
+    }
+}
+
+.icon__send {
+    margin-left: 10px;
 }

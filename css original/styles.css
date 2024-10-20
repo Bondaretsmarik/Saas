@@ -687,7 +687,7 @@ overflow: hidden;
 
 /* Модальне вікно */
 
-.backdrop {
+/* .backdrop {
     position: fixed;
     top: 0;
     left: 0;
@@ -745,17 +745,17 @@ transform: translate(-50%, -50%) scale(0.9);
 .button-close:hover,
 .button-close:focus {
 fill: var(--accent-color);
-}
+} */
 
 
 
-.modal-title {
+/* .modal-title {
 text-align: center;
 margin-top: 40px;
 margin-bottom: 12px;
-}
+} */
 
-.form-field {
+/* .form-field {
     position: relative;
     display: block;
 
@@ -769,9 +769,9 @@ margin-bottom: 12px;
     color: var(--text-color);
     font-size: 12px;
     letter-spacing: 0.12px
-}
+} */
 
-.modal-input {
+/* .modal-input {
 width: 100%;
 height: 40px;
 padding-left: 42px;
@@ -780,27 +780,27 @@ border-radius: 4px;
 border: 1px rgba(33, 33, 33, 0.20) solid;
 outline: none;
 transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.form-icon {
+} */
+/* .form-icon {
     position: absolute;
     top: 50%;
     left: 12px;
     fill: var(--primery-text-color);
 
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
-.modal-input:hover,
+/* .modal-input:hover,
 .modal-input:focus {
     border-color: var(--accent-color);
-}
+} */
 
-.modal-input:hover + .form-icon,
+/* .modal-input:hover + .form-icon,
 .modal-input:focus + .form-icon {
     fill: var(--accent-color);
-}
+} */
 
-.modal-textarea {
+/* .modal-textarea {
     min-height: 120px;
     padding: 12px 16px;
 }
@@ -813,7 +813,7 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 textarea {
     resize: none;
-}
+} */
 
 
 .label-contract {
@@ -879,10 +879,10 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     background-color: #188CE8;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
-.footer-form {
+/* .footer-form {
     margin-left: 93px;
-}
-
+} */
+/* 
 .footer-form-title {
     font-weight: 700;
     color: var(--white-color);
@@ -938,4 +938,4 @@ gap: 12px;
 
 .icon-send {
     margin-left: 10px;
-}
+} */
