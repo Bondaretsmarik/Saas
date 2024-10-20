@@ -734,6 +734,18 @@ textarea {
   margin: 20px auto 30px auto;
 }
 
+.icon__checkbox {
+  display: block;
+  margin-right: 7px;
+  border: 2px #212121 solid;
+  border-radius: 4px;
+  width: 16px;
+  height: 16px;
+  -webkit-transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+}
+
 .checkbox {
   -webkit-appearance: none;
      -moz-appearance: none;
@@ -745,16 +757,4 @@ textarea {
   background-size: contain;
   background-origin: border-box;
   border-color: #2196F3;
-}
-
-.icon__checkbox {
-  display: block;
-  margin-right: 7px;
-  border: 2px #212121 solid;
-  border-radius: 4px;
-  width: 16px;
-  height: 16px;
-  -webkit-transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  cursor: pointer;
 }/*# sourceMappingURL=main.css.map */
