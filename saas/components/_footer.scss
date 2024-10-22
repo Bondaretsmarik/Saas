@@ -80,7 +80,7 @@
     color: $color-white-alfa;
     line-height: 1.7;
     letter-spacing: 0.42px;
-    
+    text-decoration: none;
 
     &--location {
         color: $color-white;
@@ -138,4 +138,10 @@
 
 .icon__send {
     margin-left: 10px;
+}
+
+.link {
+    text-decoration: none;
+
+    
 }
